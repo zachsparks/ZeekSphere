@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <video autoplay muted loop id="video-bg">
+        <source src="/static/img.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    <div id="chat-container">
+        <header>
+            <button id="login-btn" href="/">Login</button>
+            <h1>OpenAI Bot</h1>
+        </header>
+        <div id="chat-box"></div>
+        <div id="typing-indicator" style="display: none;">
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+        </div>
+        <form id="message-form">
+            <input type="text" id="message-input" placeholder="Type a message..." autocomplete="off">
+            <button id="voice-btn" type="button">🎤</button> <!-- Voice input button -->
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

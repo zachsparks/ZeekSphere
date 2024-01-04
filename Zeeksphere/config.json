@@ -1,0 +1,10 @@
+{
+    "openai": {
+        "key": "APP-KEY-HERE",
+    },
+    "pinecone": {
+        "key": "APP-KEY-HERE",
+        "env": "APP-ENV-HERE"
+    }
+
+}
