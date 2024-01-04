@@ -8,8 +8,8 @@ Conversation Context Management: Maintains a short history of the conversation f
 
 Setup and Installation
 1. Clone the Repository
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/zachsparks/ZeekSphere
+cd ZeekSphere
 
 2. Install Dependencies
 Ensure Python is installed on your system.
